@@ -12,11 +12,13 @@ type Grade = {
 };
 
 type GradeComponent = {
+  id: number;
   name: string;
   weight: number;
 };
 
 type Chapter = {
+  id: number;
   name: string;
   contribution: Record<string, number>;
 };

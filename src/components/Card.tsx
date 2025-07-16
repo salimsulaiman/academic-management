@@ -63,12 +63,12 @@ export default function ClassCard({
         </div>
       </div>
 
-      <div className="flex gap-2 mt-auto">
+      <div className="flex gap-2 mt-auto items-center justify-center">
         <Button
           onClick={() => router.push(`/dashboard/class/${slug}/configuration`)}
           disableElevation
           disableRipple
-          className="flex-1 bg-blue-violet-100 dark:bg-gray-700 text-sm text-gray-700 dark:text-white hover:bg-blue-violet-200 dark:hover:bg-violet-600 normal-case rounded-full flex items-center gap-1"
+          className="flex-1 bg-blue-violet-100 dark:bg-gray-700 text-xs text-gray-700 dark:text-white hover:bg-blue-violet-200 dark:hover:bg-violet-600 normal-case rounded-full flex items-center gap-1 px-4 py-2"
         >
           <span>
             <SettingsIcon className="h-4" />
@@ -79,7 +79,7 @@ export default function ClassCard({
           onClick={() => router.push(`/kelas/${classId}/input-nilai`)}
           disableElevation
           disableRipple
-          className="flex-1 bg-emerald-100 dark:bg-gray-700 text-sm text-gray-700 dark:text-white hover:bg-emerald-200 dark:hover:bg-emerald-600 normal-case rounded-full flex items-center gap-1"
+          className="flex-1 bg-emerald-100 dark:bg-gray-700 text-xs text-gray-700 dark:text-white hover:bg-emerald-200 dark:hover:bg-emerald-600 normal-case rounded-full flex items-center gap-1 px-4 py-2"
         >
           <span>
             <BarChartIcon className="h-4" />
