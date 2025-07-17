@@ -7,7 +7,7 @@ const DashboardPage = () => {
   const { data } = useAcademicStore((state) => state);
   return (
     <div className="w-full flex gap-4">
-      <div className="w-full md:w-4/6">
+      <div className="w-full">
         <div className="bg-blue-violet-600 w-full p-8 rounded-2xl">
           <h1 className="text-white text-xl">
             Good Morning, <span className="font-semibold">Salim Sulaiman</span>

@@ -1,6 +1,6 @@
 "use client";
 import { useAcademicStore } from "@/store/useAcademicStore";
-import { Box, Slider, Tab, Tabs, TextField } from "@mui/material";
+import { Box, Slider, Tab, Tabs } from "@mui/material";
 import { useParams } from "next/navigation";
 import React, { useEffect, useMemo, useState } from "react";
 import { useTheme } from "@mui/material/styles";
@@ -116,7 +116,7 @@ const ConfigurationPage = () => {
 
     const defaultContribution: Record<string, number> = {};
     initialComponents.forEach((comp) => {
-      defaultContribution[comp.name] = 20; // atau 0 jika default kosong
+      defaultContribution[comp.name] = 20;
     });
 
     setChapters((prev) => [
@@ -227,7 +227,7 @@ const ConfigurationPage = () => {
                 </div>
               ))}
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-6 border-2 border-dashed border-blue-300 dark:border-gray-600 mt-8">
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Total Configuration</h3>
                   <span
                     className={`text-3xl font-bold ${
@@ -268,7 +268,7 @@ const ConfigurationPage = () => {
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
           <div className="mb-6">
-            <div className="flex gap-2">
+            <div className="flex flex-col md:flex-row gap-2">
               <input
                 type="text"
                 placeholder="Enter chapter name"
@@ -279,7 +279,7 @@ const ConfigurationPage = () => {
               />
               <button
                 onClick={addChapter}
-                className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-2"
+                className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center justify-center gap-2"
               >
                 <AddIcon className="w-4 h-4" />
                 Add Chapter
@@ -303,10 +303,10 @@ const ConfigurationPage = () => {
         </CustomTabPanel>
       </Box>
       <div className="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-md mt-4">
-        <div className="flex items-center justify-between">
-          <div>
+        <div className="flex flex-col sm:flex-row items-center justify-between">
+          <div className="w-full sm:w-fit">
             <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Configuration Status</h3>
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full">
               <div
                 className={`flex items-center gap-2 ${
                   preview.validComponents ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"
@@ -334,9 +334,8 @@ const ConfigurationPage = () => {
               </div>
             </div>
           </div>
-
           <div
-            className={`px-6 py-3 rounded-lg font-medium ${
+            className={`px-6 py-3 rounded-lg w-full sm:w-fit mt-4 sm:mt-0 font-medium ${
               preview.overallValid
                 ? "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
                 : "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200"

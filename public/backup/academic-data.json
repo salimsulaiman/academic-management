@@ -1,0 +1,3054 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "name": "Pemrograman Dasar",
+      "slug": "pemrograman-web",
+      "semester": "Ganjil 2025",
+      "createdAt": "2025-06-17T07:54:40",
+      "updatedAt": "2025-07-07T13:02:55",
+      "students": [
+        {
+          "id": 1,
+          "name": "Oscar Syahputra",
+          "nim": "A11.2022.10001",
+          "createdAt": "2025-07-09T13:00:56",
+          "updatedAt": "2025-06-25T12:28:08"
+        },
+        {
+          "id": 2,
+          "name": "Eka Anggara",
+          "nim": "A11.2022.10002",
+          "createdAt": "2025-07-13T16:05:13",
+          "updatedAt": "2025-07-08T18:25:41"
+        },
+        {
+          "id": 3,
+          "name": "Citra Yulianto",
+          "nim": "A11.2022.10003",
+          "createdAt": "2025-06-26T12:25:34",
+          "updatedAt": "2025-07-13T20:05:05"
+        },
+        {
+          "id": 4,
+          "name": "Nina Permata",
+          "nim": "A11.2022.10004",
+          "createdAt": "2025-06-24T05:12:16",
+          "updatedAt": "2025-06-04T15:25:39"
+        },
+        {
+          "id": 5,
+          "name": "Gilang Nugroho",
+          "nim": "A11.2022.10005",
+          "createdAt": "2025-06-10T09:01:38",
+          "updatedAt": "2025-06-25T03:26:37"
+        },
+        {
+          "id": 6,
+          "name": "Indra Saputra",
+          "nim": "A11.2022.10006",
+          "createdAt": "2025-07-11T20:25:43",
+          "updatedAt": "2025-06-09T20:59:40"
+        },
+        {
+          "id": 7,
+          "name": "Sari Anggara",
+          "nim": "A11.2022.10007",
+          "createdAt": "2025-06-19T11:40:40",
+          "updatedAt": "2025-06-02T17:53:10"
+        },
+        {
+          "id": 8,
+          "name": "Qori Lestari",
+          "nim": "A11.2022.10008",
+          "createdAt": "2025-06-12T05:41:15",
+          "updatedAt": "2025-06-12T00:23:27"
+        },
+        {
+          "id": 9,
+          "name": "Sari Wijaya",
+          "nim": "A11.2022.10009",
+          "createdAt": "2025-07-04T12:02:12",
+          "updatedAt": "2025-07-02T04:58:25"
+        },
+        {
+          "id": 10,
+          "name": "Gilang Fitriani",
+          "nim": "A11.2022.10010",
+          "createdAt": "2025-06-10T19:43:07",
+          "updatedAt": "2025-06-01T12:44:06"
+        },
+        {
+          "id": 11,
+          "name": "Citra Wijaya",
+          "nim": "A11.2022.10011",
+          "createdAt": "2025-07-12T22:21:00",
+          "updatedAt": "2025-06-21T05:58:00"
+        },
+        {
+          "id": 12,
+          "name": "Lutfi Syahputra",
+          "nim": "A11.2022.10012",
+          "createdAt": "2025-07-09T09:42:13",
+          "updatedAt": "2025-06-25T12:18:20"
+        },
+        {
+          "id": 13,
+          "name": "Sari Kusuma",
+          "nim": "A11.2022.10013",
+          "createdAt": "2025-06-04T04:58:00",
+          "updatedAt": "2025-06-05T15:23:53"
+        },
+        {
+          "id": 14,
+          "name": "Hani Nugroho",
+          "nim": "A11.2022.10014",
+          "createdAt": "2025-07-15T20:23:59",
+          "updatedAt": "2025-06-30T18:05:00"
+        },
+        {
+          "id": 15,
+          "name": "Eka Hidayat",
+          "nim": "A11.2022.10015",
+          "createdAt": "2025-06-01T00:56:17",
+          "updatedAt": "2025-06-06T07:48:59"
+        },
+        {
+          "id": 16,
+          "name": "Citra Kusuma",
+          "nim": "A11.2022.10016",
+          "createdAt": "2025-06-03T12:46:13",
+          "updatedAt": "2025-07-07T07:31:15"
+        },
+        {
+          "id": 17,
+          "name": "Gilang Nugroho",
+          "nim": "A11.2022.10017",
+          "createdAt": "2025-07-01T05:40:16",
+          "updatedAt": "2025-06-06T16:31:24"
+        },
+        {
+          "id": 18,
+          "name": "Oscar Wijaya",
+          "nim": "A11.2022.10018",
+          "createdAt": "2025-06-13T16:24:33",
+          "updatedAt": "2025-06-15T20:31:20"
+        },
+        {
+          "id": 19,
+          "name": "Budi Permata",
+          "nim": "A11.2022.10019",
+          "createdAt": "2025-06-17T19:29:23",
+          "updatedAt": "2025-06-20T20:03:36"
+        },
+        {
+          "id": 20,
+          "name": "Oscar Saputra",
+          "nim": "A11.2022.10020",
+          "createdAt": "2025-06-05T07:26:10",
+          "updatedAt": "2025-06-07T02:18:11"
+        }
+      ],
+      "gradeConfig": {
+        "components": [
+          {
+            "name": "Tugas",
+            "weight": 15,
+            "id": 1
+          },
+          {
+            "name": "UTS",
+            "weight": 30,
+            "id": 2
+          },
+          {
+            "name": "UAS",
+            "weight": 30,
+            "id": 3
+          },
+          {
+            "name": "Proyek",
+            "weight": 15,
+            "id": 4
+          },
+          {
+            "name": "Kuis",
+            "weight": 10,
+            "id": 5
+          }
+        ],
+        "chapters": [
+          {
+            "name": "Bab 1",
+            "contribution": {
+              "Tugas": 9,
+              "UTS": 7,
+              "UAS": 17,
+              "Proyek": 14,
+              "Kuis": 53
+            },
+            "id": 1
+          },
+          {
+            "name": "Bab 2",
+            "contribution": {
+              "Tugas": 32,
+              "UTS": 20,
+              "UAS": 21,
+              "Proyek": 22,
+              "Kuis": 5
+            },
+            "id": 2
+          },
+          {
+            "name": "Bab 3",
+            "contribution": {
+              "Tugas": 30,
+              "UTS": 6,
+              "UAS": 43,
+              "Proyek": 5,
+              "Kuis": 16
+            },
+            "id": 3
+          },
+          {
+            "name": "Bab 4",
+            "contribution": {
+              "Tugas": 53,
+              "UTS": 8,
+              "UAS": 30,
+              "Proyek": 6,
+              "Kuis": 3
+            },
+            "id": 4
+          },
+          {
+            "name": "Bab 5",
+            "contribution": {
+              "Tugas": 2,
+              "UTS": 10,
+              "UAS": 20,
+              "Proyek": 34,
+              "Kuis": 34
+            },
+            "id": 5
+          }
+        ],
+        "createdAt": "2025-07-04T18:38:04",
+        "updatedAt": "2025-07-12T17:39:26"
+      },
+      "grades": [
+        {
+          "studentId": 2,
+          "components": {
+            "Tugas": {
+              "Bab 1": 99,
+              "Bab 2": 60,
+              "Bab 3": 67,
+              "Bab 4": 77,
+              "Bab 5": 80
+            },
+            "UTS": {
+              "Bab 1": 53,
+              "Bab 2": 66,
+              "Bab 3": 81,
+              "Bab 4": 97,
+              "Bab 5": 99
+            },
+            "UAS": {
+              "Bab 1": 98,
+              "Bab 2": 52,
+              "Bab 3": 85,
+              "Bab 4": 100,
+              "Bab 5": 86
+            },
+            "Proyek": {
+              "Bab 1": 89,
+              "Bab 2": 100,
+              "Bab 3": 86,
+              "Bab 4": 86,
+              "Bab 5": 75
+            },
+            "Kuis": {
+              "Bab 1": 82,
+              "Bab 2": 56,
+              "Bab 3": 88,
+              "Bab 4": 61,
+              "Bab 5": 75
+            }
+          },
+          "id": 1
+        },
+        {
+          "studentId": 4,
+          "components": {
+            "Tugas": {
+              "Bab 1": 91,
+              "Bab 2": 73,
+              "Bab 3": 97,
+              "Bab 4": 63,
+              "Bab 5": 83
+            },
+            "UTS": {
+              "Bab 1": 69,
+              "Bab 2": 97,
+              "Bab 3": 81,
+              "Bab 4": 89,
+              "Bab 5": 97
+            },
+            "UAS": {
+              "Bab 1": 60,
+              "Bab 2": 51,
+              "Bab 3": 67,
+              "Bab 4": 67,
+              "Bab 5": 59
+            },
+            "Proyek": {
+              "Bab 1": 98,
+              "Bab 2": 61,
+              "Bab 3": 69,
+              "Bab 4": 73,
+              "Bab 5": 91
+            },
+            "Kuis": {
+              "Bab 1": 72,
+              "Bab 2": 74,
+              "Bab 3": 59,
+              "Bab 4": 63,
+              "Bab 5": 97
+            }
+          },
+          "id": 2
+        },
+        {
+          "studentId": 5,
+          "components": {
+            "Tugas": {
+              "Bab 1": 67,
+              "Bab 2": 56,
+              "Bab 3": 88,
+              "Bab 4": 60,
+              "Bab 5": 74
+            },
+            "UTS": {
+              "Bab 1": 93,
+              "Bab 2": 64,
+              "Bab 3": 84,
+              "Bab 4": 76,
+              "Bab 5": 83
+            },
+            "UAS": {
+              "Bab 1": 83,
+              "Bab 2": 54,
+              "Bab 3": 90,
+              "Bab 4": 57,
+              "Bab 5": 79
+            },
+            "Proyek": {
+              "Bab 1": 94,
+              "Bab 2": 97,
+              "Bab 3": 82,
+              "Bab 4": 87,
+              "Bab 5": 77
+            },
+            "Kuis": {
+              "Bab 1": 53,
+              "Bab 2": 74,
+              "Bab 3": 75,
+              "Bab 4": 92,
+              "Bab 5": 67
+            }
+          },
+          "id": 3
+        },
+        {
+          "studentId": 6,
+          "components": {
+            "Tugas": {
+              "Bab 1": 89,
+              "Bab 2": 94,
+              "Bab 3": 68,
+              "Bab 4": 95,
+              "Bab 5": 70
+            },
+            "UTS": {
+              "Bab 1": 87,
+              "Bab 2": 82,
+              "Bab 3": 92,
+              "Bab 4": 98,
+              "Bab 5": 55
+            },
+            "UAS": {
+              "Bab 1": 58,
+              "Bab 2": 86,
+              "Bab 3": 72,
+              "Bab 4": 68,
+              "Bab 5": 52
+            },
+            "Proyek": {
+              "Bab 1": 60,
+              "Bab 2": 57,
+              "Bab 3": 98,
+              "Bab 4": 55,
+              "Bab 5": 63
+            },
+            "Kuis": {
+              "Bab 1": 100,
+              "Bab 2": 77,
+              "Bab 3": 65,
+              "Bab 4": 53,
+              "Bab 5": 68
+            }
+          },
+          "id": 4
+        },
+        {
+          "studentId": 7,
+          "components": {
+            "Tugas": {
+              "Bab 1": 76,
+              "Bab 2": 83,
+              "Bab 3": 75,
+              "Bab 4": 79,
+              "Bab 5": 54
+            },
+            "UTS": {
+              "Bab 1": 99,
+              "Bab 2": 86,
+              "Bab 3": 100,
+              "Bab 4": 60,
+              "Bab 5": 85
+            },
+            "UAS": {
+              "Bab 1": 80,
+              "Bab 2": 63,
+              "Bab 3": 90,
+              "Bab 4": 52,
+              "Bab 5": 69
+            },
+            "Proyek": {
+              "Bab 1": 77,
+              "Bab 2": 84,
+              "Bab 3": 84,
+              "Bab 4": 94,
+              "Bab 5": 74
+            },
+            "Kuis": {
+              "Bab 1": 88,
+              "Bab 2": 88,
+              "Bab 3": 61,
+              "Bab 4": 86,
+              "Bab 5": 81
+            }
+          },
+          "id": 5
+        },
+        {
+          "studentId": 8,
+          "components": {
+            "Tugas": {
+              "Bab 1": 85,
+              "Bab 2": 54,
+              "Bab 3": 67,
+              "Bab 4": 96,
+              "Bab 5": 89
+            },
+            "UTS": {
+              "Bab 1": 53,
+              "Bab 2": 62,
+              "Bab 3": 77,
+              "Bab 4": 54,
+              "Bab 5": 86
+            },
+            "UAS": {
+              "Bab 1": 75,
+              "Bab 2": 93,
+              "Bab 3": 68,
+              "Bab 4": 92,
+              "Bab 5": 92
+            },
+            "Proyek": {
+              "Bab 1": 52,
+              "Bab 2": 95,
+              "Bab 3": 76,
+              "Bab 4": 64,
+              "Bab 5": 96
+            },
+            "Kuis": {
+              "Bab 1": 55,
+              "Bab 2": 62,
+              "Bab 3": 59,
+              "Bab 4": 56,
+              "Bab 5": 56
+            }
+          },
+          "id": 6
+        },
+        {
+          "studentId": 9,
+          "components": {
+            "Tugas": {
+              "Bab 1": 95,
+              "Bab 2": 66,
+              "Bab 3": 84,
+              "Bab 4": 73,
+              "Bab 5": 77
+            },
+            "UTS": {
+              "Bab 1": 77,
+              "Bab 2": 88,
+              "Bab 3": 82,
+              "Bab 4": 91,
+              "Bab 5": 75
+            },
+            "UAS": {
+              "Bab 1": 71,
+              "Bab 2": 82,
+              "Bab 3": 66,
+              "Bab 4": 50,
+              "Bab 5": 85
+            },
+            "Proyek": {
+              "Bab 1": 64,
+              "Bab 2": 98,
+              "Bab 3": 90,
+              "Bab 4": 77,
+              "Bab 5": 53
+            },
+            "Kuis": {
+              "Bab 1": 61,
+              "Bab 2": 68,
+              "Bab 3": 95,
+              "Bab 4": 95,
+              "Bab 5": 84
+            }
+          },
+          "id": 7
+        },
+        {
+          "studentId": 10,
+          "components": {
+            "Tugas": {
+              "Bab 1": 59,
+              "Bab 2": 82,
+              "Bab 3": 68,
+              "Bab 4": 67,
+              "Bab 5": 92
+            },
+            "UTS": {
+              "Bab 1": 81,
+              "Bab 2": 83,
+              "Bab 3": 66,
+              "Bab 4": 58,
+              "Bab 5": 55
+            },
+            "UAS": {
+              "Bab 1": 71,
+              "Bab 2": 91,
+              "Bab 3": 56,
+              "Bab 4": 54,
+              "Bab 5": 88
+            },
+            "Proyek": {
+              "Bab 1": 85,
+              "Bab 2": 86,
+              "Bab 3": 77,
+              "Bab 4": 84,
+              "Bab 5": 71
+            },
+            "Kuis": {
+              "Bab 1": 57,
+              "Bab 2": 99,
+              "Bab 3": 62,
+              "Bab 4": 86,
+              "Bab 5": 98
+            }
+          },
+          "id": 8
+        },
+        {
+          "studentId": 11,
+          "components": {
+            "Tugas": {
+              "Bab 1": 59,
+              "Bab 2": 81,
+              "Bab 3": 62,
+              "Bab 4": 69,
+              "Bab 5": 57
+            },
+            "UTS": {
+              "Bab 1": 94,
+              "Bab 2": 72,
+              "Bab 3": 72,
+              "Bab 4": 85,
+              "Bab 5": 60
+            },
+            "UAS": {
+              "Bab 1": 72,
+              "Bab 2": 63,
+              "Bab 3": 96,
+              "Bab 4": 98,
+              "Bab 5": 54
+            },
+            "Proyek": {
+              "Bab 1": 62,
+              "Bab 2": 51,
+              "Bab 3": 95,
+              "Bab 4": 77,
+              "Bab 5": 54
+            },
+            "Kuis": {
+              "Bab 1": 50,
+              "Bab 2": 62,
+              "Bab 3": 84,
+              "Bab 4": 54,
+              "Bab 5": 71
+            }
+          },
+          "id": 9
+        },
+        {
+          "studentId": 12,
+          "components": {
+            "Tugas": {
+              "Bab 1": 75,
+              "Bab 2": 53,
+              "Bab 3": 87,
+              "Bab 4": 89,
+              "Bab 5": 63
+            },
+            "UTS": {
+              "Bab 1": 94,
+              "Bab 2": 58,
+              "Bab 3": 84,
+              "Bab 4": 86,
+              "Bab 5": 67
+            },
+            "UAS": {
+              "Bab 1": 84,
+              "Bab 2": 75,
+              "Bab 3": 59,
+              "Bab 4": 81,
+              "Bab 5": 76
+            },
+            "Proyek": {
+              "Bab 1": 93,
+              "Bab 2": 77,
+              "Bab 3": 61,
+              "Bab 4": 88,
+              "Bab 5": 100
+            },
+            "Kuis": {
+              "Bab 1": 89,
+              "Bab 2": 89,
+              "Bab 3": 77,
+              "Bab 4": 80,
+              "Bab 5": 100
+            }
+          },
+          "id": 10
+        },
+        {
+          "studentId": 13,
+          "components": {
+            "Tugas": {
+              "Bab 1": 53,
+              "Bab 2": 72,
+              "Bab 3": 92,
+              "Bab 4": 63,
+              "Bab 5": 57
+            },
+            "UTS": {
+              "Bab 1": 90,
+              "Bab 2": 78,
+              "Bab 3": 89,
+              "Bab 4": 79,
+              "Bab 5": 84
+            },
+            "UAS": {
+              "Bab 1": 70,
+              "Bab 2": 55,
+              "Bab 3": 94,
+              "Bab 4": 58,
+              "Bab 5": 78
+            },
+            "Proyek": {
+              "Bab 1": 67,
+              "Bab 2": 69,
+              "Bab 3": 63,
+              "Bab 4": 61,
+              "Bab 5": 58
+            },
+            "Kuis": {
+              "Bab 1": 95,
+              "Bab 2": 91,
+              "Bab 3": 56,
+              "Bab 4": 52,
+              "Bab 5": 82
+            }
+          },
+          "id": 11
+        },
+        {
+          "studentId": 14,
+          "components": {
+            "Tugas": {
+              "Bab 1": 81,
+              "Bab 2": 100,
+              "Bab 3": 68,
+              "Bab 4": 51,
+              "Bab 5": 53
+            },
+            "UTS": {
+              "Bab 1": 52,
+              "Bab 2": 51,
+              "Bab 3": 68,
+              "Bab 4": 58,
+              "Bab 5": 97
+            },
+            "UAS": {
+              "Bab 1": 86,
+              "Bab 2": 50,
+              "Bab 3": 69,
+              "Bab 4": 95,
+              "Bab 5": 87
+            },
+            "Proyek": {
+              "Bab 1": 55,
+              "Bab 2": 52,
+              "Bab 3": 55,
+              "Bab 4": 57,
+              "Bab 5": 60
+            },
+            "Kuis": {
+              "Bab 1": 94,
+              "Bab 2": 58,
+              "Bab 3": 97,
+              "Bab 4": 72,
+              "Bab 5": 63
+            }
+          },
+          "id": 12
+        },
+        {
+          "studentId": 15,
+          "components": {
+            "Tugas": {
+              "Bab 1": 53,
+              "Bab 2": 95,
+              "Bab 3": 63,
+              "Bab 4": 73,
+              "Bab 5": 56
+            },
+            "UTS": {
+              "Bab 1": 88,
+              "Bab 2": 60,
+              "Bab 3": 52,
+              "Bab 4": 54,
+              "Bab 5": 54
+            },
+            "UAS": {
+              "Bab 1": 70,
+              "Bab 2": 74,
+              "Bab 3": 78,
+              "Bab 4": 78,
+              "Bab 5": 71
+            },
+            "Proyek": {
+              "Bab 1": 67,
+              "Bab 2": 99,
+              "Bab 3": 80,
+              "Bab 4": 90,
+              "Bab 5": 98
+            },
+            "Kuis": {
+              "Bab 1": 65,
+              "Bab 2": 85,
+              "Bab 3": 61,
+              "Bab 4": 85,
+              "Bab 5": 77
+            }
+          },
+          "id": 13
+        },
+        {
+          "studentId": 16,
+          "components": {
+            "Tugas": {
+              "Bab 1": 53,
+              "Bab 2": 62,
+              "Bab 3": 94,
+              "Bab 4": 65,
+              "Bab 5": 93
+            },
+            "UTS": {
+              "Bab 1": 89,
+              "Bab 2": 67,
+              "Bab 3": 73,
+              "Bab 4": 95,
+              "Bab 5": 61
+            },
+            "UAS": {
+              "Bab 1": 94,
+              "Bab 2": 79,
+              "Bab 3": 82,
+              "Bab 4": 63,
+              "Bab 5": 100
+            },
+            "Proyek": {
+              "Bab 1": 88,
+              "Bab 2": 96,
+              "Bab 3": 70,
+              "Bab 4": 87,
+              "Bab 5": 86
+            },
+            "Kuis": {
+              "Bab 1": 89,
+              "Bab 2": 93,
+              "Bab 3": 70,
+              "Bab 4": 73,
+              "Bab 5": 78
+            }
+          },
+          "id": 14
+        },
+        {
+          "studentId": 17,
+          "components": {
+            "Tugas": {
+              "Bab 1": 78,
+              "Bab 2": 51,
+              "Bab 3": 60,
+              "Bab 4": 99,
+              "Bab 5": 88
+            },
+            "UTS": {
+              "Bab 1": 56,
+              "Bab 2": 53,
+              "Bab 3": 73,
+              "Bab 4": 52,
+              "Bab 5": 72
+            },
+            "UAS": {
+              "Bab 1": 93,
+              "Bab 2": 70,
+              "Bab 3": 80,
+              "Bab 4": 96,
+              "Bab 5": 87
+            },
+            "Proyek": {
+              "Bab 1": 67,
+              "Bab 2": 73,
+              "Bab 3": 67,
+              "Bab 4": 78,
+              "Bab 5": 90
+            },
+            "Kuis": {
+              "Bab 1": 68,
+              "Bab 2": 70,
+              "Bab 3": 66,
+              "Bab 4": 63,
+              "Bab 5": 66
+            }
+          },
+          "id": 15
+        },
+        {
+          "studentId": 18,
+          "components": {
+            "Tugas": {
+              "Bab 1": 100,
+              "Bab 2": 73,
+              "Bab 3": 62,
+              "Bab 4": 97,
+              "Bab 5": 68
+            },
+            "UTS": {
+              "Bab 1": 65,
+              "Bab 2": 97,
+              "Bab 3": 58,
+              "Bab 4": 80,
+              "Bab 5": 81
+            },
+            "UAS": {
+              "Bab 1": 56,
+              "Bab 2": 57,
+              "Bab 3": 71,
+              "Bab 4": 88,
+              "Bab 5": 85
+            },
+            "Proyek": {
+              "Bab 1": 86,
+              "Bab 2": 93,
+              "Bab 3": 92,
+              "Bab 4": 58,
+              "Bab 5": 95
+            },
+            "Kuis": {
+              "Bab 1": 94,
+              "Bab 2": 95,
+              "Bab 3": 67,
+              "Bab 4": 88,
+              "Bab 5": 66
+            }
+          },
+          "id": 16
+        },
+        {
+          "studentId": 19,
+          "components": {
+            "Tugas": {
+              "Bab 1": 77,
+              "Bab 2": 93,
+              "Bab 3": 73,
+              "Bab 4": 61,
+              "Bab 5": 53
+            },
+            "UTS": {
+              "Bab 1": 61,
+              "Bab 2": 98,
+              "Bab 3": 56,
+              "Bab 4": 98,
+              "Bab 5": 51
+            },
+            "UAS": {
+              "Bab 1": 91,
+              "Bab 2": 94,
+              "Bab 3": 92,
+              "Bab 4": 87,
+              "Bab 5": 95
+            },
+            "Proyek": {
+              "Bab 1": 88,
+              "Bab 2": 67,
+              "Bab 3": 68,
+              "Bab 4": 72,
+              "Bab 5": 63
+            },
+            "Kuis": {
+              "Bab 1": 71,
+              "Bab 2": 99,
+              "Bab 3": 80,
+              "Bab 4": 58,
+              "Bab 5": 78
+            }
+          },
+          "id": 17
+        },
+        {
+          "studentId": 20,
+          "components": {
+            "Tugas": {
+              "Bab 1": 50,
+              "Bab 2": 60,
+              "Bab 3": 70,
+              "Bab 4": 70,
+              "Bab 5": 99
+            },
+            "UTS": {
+              "Bab 1": 72,
+              "Bab 2": 55,
+              "Bab 3": 97,
+              "Bab 4": 88,
+              "Bab 5": 65
+            },
+            "UAS": {
+              "Bab 1": 99,
+              "Bab 2": 51,
+              "Bab 3": 56,
+              "Bab 4": 88,
+              "Bab 5": 55
+            },
+            "Proyek": {
+              "Bab 1": 91,
+              "Bab 2": 81,
+              "Bab 3": 78,
+              "Bab 4": 86,
+              "Bab 5": 92
+            },
+            "Kuis": {
+              "Bab 1": 85,
+              "Bab 2": 81,
+              "Bab 3": 76,
+              "Bab 4": 100,
+              "Bab 5": 62
+            }
+          },
+          "id": 18
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Basis Data",
+      "slug": "basis-data",
+      "semester": "Ganjil 2025",
+      "createdAt": "2025-07-13T18:01:18",
+      "updatedAt": "2025-06-08T18:04:10",
+      "students": [
+        {
+          "id": 1,
+          "name": "Sari Pratama",
+          "nim": "A11.2022.10101",
+          "createdAt": "2025-07-15T14:23:31",
+          "updatedAt": "2025-06-01T22:01:43"
+        },
+        {
+          "id": 2,
+          "name": "Joko Kusuma",
+          "nim": "A11.2022.10102",
+          "createdAt": "2025-06-30T13:22:05",
+          "updatedAt": "2025-07-08T04:47:05"
+        },
+        {
+          "id": 3,
+          "name": "Oscar Lestari",
+          "nim": "A11.2022.10103",
+          "createdAt": "2025-06-15T04:14:57",
+          "updatedAt": "2025-07-05T04:48:33"
+        },
+        {
+          "id": 4,
+          "name": "Putri Permata",
+          "nim": "A11.2022.10104",
+          "createdAt": "2025-06-19T21:57:41",
+          "updatedAt": "2025-07-03T23:46:04"
+        },
+        {
+          "id": 5,
+          "name": "Lutfi Fitriani",
+          "nim": "A11.2022.10105",
+          "createdAt": "2025-06-12T03:57:44",
+          "updatedAt": "2025-06-17T17:04:44"
+        },
+        {
+          "id": 6,
+          "name": "Eka Wijaya",
+          "nim": "A11.2022.10106",
+          "createdAt": "2025-06-20T17:49:48",
+          "updatedAt": "2025-06-25T17:04:56"
+        },
+        {
+          "id": 7,
+          "name": "Citra Amalia",
+          "nim": "A11.2022.10107",
+          "createdAt": "2025-06-22T06:38:23",
+          "updatedAt": "2025-07-10T03:15:33"
+        },
+        {
+          "id": 8,
+          "name": "Gilang Saputra",
+          "nim": "A11.2022.10108",
+          "createdAt": "2025-07-03T23:13:59",
+          "updatedAt": "2025-06-22T16:12:08"
+        },
+        {
+          "id": 9,
+          "name": "Oscar Lestari",
+          "nim": "A11.2022.10109",
+          "createdAt": "2025-06-20T03:02:57",
+          "updatedAt": "2025-06-18T12:56:29"
+        },
+        {
+          "id": 10,
+          "name": "Gilang Hidayat",
+          "nim": "A11.2022.10110",
+          "createdAt": "2025-07-02T16:23:34",
+          "updatedAt": "2025-07-06T12:30:18"
+        },
+        {
+          "id": 11,
+          "name": "Farah Wijaya",
+          "nim": "A11.2022.10111",
+          "createdAt": "2025-06-15T12:37:14",
+          "updatedAt": "2025-06-24T03:34:30"
+        },
+        {
+          "id": 12,
+          "name": "Ahmad Nugroho",
+          "nim": "A11.2022.10112",
+          "createdAt": "2025-06-23T10:43:17",
+          "updatedAt": "2025-06-19T20:36:01"
+        },
+        {
+          "id": 13,
+          "name": "Rizky Anggara",
+          "nim": "A11.2022.10113",
+          "createdAt": "2025-06-02T20:17:19",
+          "updatedAt": "2025-06-19T20:55:18"
+        },
+        {
+          "id": 14,
+          "name": "Sari Ramadhan",
+          "nim": "A11.2022.10114",
+          "createdAt": "2025-07-10T02:15:36",
+          "updatedAt": "2025-06-05T01:12:25"
+        },
+        {
+          "id": 15,
+          "name": "Lutfi Syahputra",
+          "nim": "A11.2022.10115",
+          "createdAt": "2025-06-01T16:27:02",
+          "updatedAt": "2025-07-07T08:30:54"
+        },
+        {
+          "id": 16,
+          "name": "Oscar Fitriani",
+          "nim": "A11.2022.10116",
+          "createdAt": "2025-06-23T14:45:26",
+          "updatedAt": "2025-06-09T22:59:10"
+        },
+        {
+          "id": 17,
+          "name": "Gilang Pratama",
+          "nim": "A11.2022.10117",
+          "createdAt": "2025-07-14T17:49:25",
+          "updatedAt": "2025-07-08T12:04:59"
+        },
+        {
+          "id": 18,
+          "name": "Farah Wijaya",
+          "nim": "A11.2022.10118",
+          "createdAt": "2025-06-26T06:19:13",
+          "updatedAt": "2025-07-09T20:17:44"
+        },
+        {
+          "id": 19,
+          "name": "Ahmad Hidayat",
+          "nim": "A11.2022.10119",
+          "createdAt": "2025-07-15T01:05:52",
+          "updatedAt": "2025-07-02T12:29:20"
+        },
+        {
+          "id": 20,
+          "name": "Indra Ramadhan",
+          "nim": "A11.2022.10120",
+          "createdAt": "2025-06-01T13:59:30",
+          "updatedAt": "2025-07-01T17:50:38"
+        }
+      ],
+      "gradeConfig": {
+        "components": [
+          {
+            "name": "Tugas",
+            "weight": 21,
+            "id": 1
+          },
+          {
+            "name": "UTS",
+            "weight": 22,
+            "id": 2
+          },
+          {
+            "name": "UAS",
+            "weight": 22,
+            "id": 3
+          },
+          {
+            "name": "Proyek",
+            "weight": 21,
+            "id": 4
+          },
+          {
+            "name": "Kuis",
+            "weight": 14,
+            "id": 5
+          }
+        ],
+        "chapters": [
+          {
+            "name": "Bab 1",
+            "contribution": {
+              "Tugas": 46,
+              "UTS": 1,
+              "UAS": 30,
+              "Proyek": 6,
+              "Kuis": 17
+            },
+            "id": 1
+          },
+          {
+            "name": "Bab 2",
+            "contribution": {
+              "Tugas": 4,
+              "UTS": 19,
+              "UAS": 12,
+              "Proyek": 11,
+              "Kuis": 54
+            },
+            "id": 2
+          },
+          {
+            "name": "Bab 3",
+            "contribution": {
+              "Tugas": 69,
+              "UTS": 7,
+              "UAS": 6,
+              "Proyek": 1,
+              "Kuis": 17
+            },
+            "id": 3
+          },
+          {
+            "name": "Bab 4",
+            "contribution": {
+              "Tugas": 6,
+              "UTS": 8,
+              "UAS": 40,
+              "Proyek": 20,
+              "Kuis": 26
+            },
+            "id": 4
+          },
+          {
+            "name": "Bab 5",
+            "contribution": {
+              "Tugas": 4,
+              "UTS": 18,
+              "UAS": 3,
+              "Proyek": 74,
+              "Kuis": 1
+            },
+            "id": 5
+          }
+        ],
+        "createdAt": "2025-06-21T09:03:48",
+        "updatedAt": "2025-06-24T23:24:23"
+      },
+      "grades": [
+        {
+          "studentId": 101,
+          "components": {
+            "Tugas": {
+              "Bab 1": 94,
+              "Bab 2": 81,
+              "Bab 3": 72,
+              "Bab 4": 83,
+              "Bab 5": 50
+            },
+            "UTS": {
+              "Bab 1": 59,
+              "Bab 2": 52,
+              "Bab 3": 91,
+              "Bab 4": 68,
+              "Bab 5": 67
+            },
+            "UAS": {
+              "Bab 1": 83,
+              "Bab 2": 91,
+              "Bab 3": 76,
+              "Bab 4": 54,
+              "Bab 5": 98
+            },
+            "Proyek": {
+              "Bab 1": 76,
+              "Bab 2": 84,
+              "Bab 3": 83,
+              "Bab 4": 80,
+              "Bab 5": 87
+            },
+            "Kuis": {
+              "Bab 1": 70,
+              "Bab 2": 62,
+              "Bab 3": 53,
+              "Bab 4": 60,
+              "Bab 5": 90
+            }
+          },
+          "id": 1
+        },
+        {
+          "studentId": 102,
+          "components": {
+            "Tugas": {
+              "Bab 1": 60,
+              "Bab 2": 96,
+              "Bab 3": 57,
+              "Bab 4": 62,
+              "Bab 5": 88
+            },
+            "UTS": {
+              "Bab 1": 72,
+              "Bab 2": 82,
+              "Bab 3": 51,
+              "Bab 4": 94,
+              "Bab 5": 89
+            },
+            "UAS": {
+              "Bab 1": 51,
+              "Bab 2": 96,
+              "Bab 3": 62,
+              "Bab 4": 51,
+              "Bab 5": 79
+            },
+            "Proyek": {
+              "Bab 1": 94,
+              "Bab 2": 68,
+              "Bab 3": 69,
+              "Bab 4": 97,
+              "Bab 5": 72
+            },
+            "Kuis": {
+              "Bab 1": 99,
+              "Bab 2": 63,
+              "Bab 3": 56,
+              "Bab 4": 97,
+              "Bab 5": 63
+            }
+          },
+          "id": 2
+        },
+        {
+          "studentId": 103,
+          "components": {
+            "Tugas": {
+              "Bab 1": 56,
+              "Bab 2": 68,
+              "Bab 3": 54,
+              "Bab 4": 56,
+              "Bab 5": 97
+            },
+            "UTS": {
+              "Bab 1": 95,
+              "Bab 2": 86,
+              "Bab 3": 57,
+              "Bab 4": 89,
+              "Bab 5": 99
+            },
+            "UAS": {
+              "Bab 1": 75,
+              "Bab 2": 69,
+              "Bab 3": 67,
+              "Bab 4": 78,
+              "Bab 5": 59
+            },
+            "Proyek": {
+              "Bab 1": 98,
+              "Bab 2": 73,
+              "Bab 3": 51,
+              "Bab 4": 88,
+              "Bab 5": 72
+            },
+            "Kuis": {
+              "Bab 1": 88,
+              "Bab 2": 88,
+              "Bab 3": 83,
+              "Bab 4": 81,
+              "Bab 5": 100
+            }
+          },
+          "id": 3
+        },
+        {
+          "studentId": 104,
+          "components": {
+            "Tugas": {
+              "Bab 1": 97,
+              "Bab 2": 86,
+              "Bab 3": 59,
+              "Bab 4": 57,
+              "Bab 5": 56
+            },
+            "UTS": {
+              "Bab 1": 57,
+              "Bab 2": 76,
+              "Bab 3": 58,
+              "Bab 4": 64,
+              "Bab 5": 63
+            },
+            "UAS": {
+              "Bab 1": 94,
+              "Bab 2": 97,
+              "Bab 3": 67,
+              "Bab 4": 78,
+              "Bab 5": 54
+            },
+            "Proyek": {
+              "Bab 1": 79,
+              "Bab 2": 97,
+              "Bab 3": 74,
+              "Bab 4": 54,
+              "Bab 5": 90
+            },
+            "Kuis": {
+              "Bab 1": 73,
+              "Bab 2": 76,
+              "Bab 3": 60,
+              "Bab 4": 64,
+              "Bab 5": 70
+            }
+          },
+          "id": 4
+        },
+        {
+          "studentId": 105,
+          "components": {
+            "Tugas": {
+              "Bab 1": 67,
+              "Bab 2": 71,
+              "Bab 3": 67,
+              "Bab 4": 51,
+              "Bab 5": 58
+            },
+            "UTS": {
+              "Bab 1": 77,
+              "Bab 2": 57,
+              "Bab 3": 75,
+              "Bab 4": 95,
+              "Bab 5": 77
+            },
+            "UAS": {
+              "Bab 1": 96,
+              "Bab 2": 82,
+              "Bab 3": 91,
+              "Bab 4": 83,
+              "Bab 5": 85
+            },
+            "Proyek": {
+              "Bab 1": 76,
+              "Bab 2": 60,
+              "Bab 3": 78,
+              "Bab 4": 91,
+              "Bab 5": 74
+            },
+            "Kuis": {
+              "Bab 1": 68,
+              "Bab 2": 99,
+              "Bab 3": 100,
+              "Bab 4": 62,
+              "Bab 5": 91
+            }
+          },
+          "id": 5
+        },
+        {
+          "studentId": 106,
+          "components": {
+            "Tugas": {
+              "Bab 1": 74,
+              "Bab 2": 51,
+              "Bab 3": 73,
+              "Bab 4": 55,
+              "Bab 5": 55
+            },
+            "UTS": {
+              "Bab 1": 59,
+              "Bab 2": 72,
+              "Bab 3": 86,
+              "Bab 4": 89,
+              "Bab 5": 67
+            },
+            "UAS": {
+              "Bab 1": 62,
+              "Bab 2": 58,
+              "Bab 3": 59,
+              "Bab 4": 88,
+              "Bab 5": 72
+            },
+            "Proyek": {
+              "Bab 1": 80,
+              "Bab 2": 88,
+              "Bab 3": 88,
+              "Bab 4": 61,
+              "Bab 5": 70
+            },
+            "Kuis": {
+              "Bab 1": 72,
+              "Bab 2": 73,
+              "Bab 3": 89,
+              "Bab 4": 52,
+              "Bab 5": 80
+            }
+          },
+          "id": 6
+        },
+        {
+          "studentId": 107,
+          "components": {
+            "Tugas": {
+              "Bab 1": 63,
+              "Bab 2": 99,
+              "Bab 3": 95,
+              "Bab 4": 70,
+              "Bab 5": 63
+            },
+            "UTS": {
+              "Bab 1": 86,
+              "Bab 2": 52,
+              "Bab 3": 62,
+              "Bab 4": 62,
+              "Bab 5": 96
+            },
+            "UAS": {
+              "Bab 1": 61,
+              "Bab 2": 57,
+              "Bab 3": 55,
+              "Bab 4": 55,
+              "Bab 5": 81
+            },
+            "Proyek": {
+              "Bab 1": 66,
+              "Bab 2": 93,
+              "Bab 3": 85,
+              "Bab 4": 97,
+              "Bab 5": 93
+            },
+            "Kuis": {
+              "Bab 1": 53,
+              "Bab 2": 70,
+              "Bab 3": 88,
+              "Bab 4": 89,
+              "Bab 5": 94
+            }
+          },
+          "id": 7
+        },
+        {
+          "studentId": 108,
+          "components": {
+            "Tugas": {
+              "Bab 1": 74,
+              "Bab 2": 99,
+              "Bab 3": 93,
+              "Bab 4": 66,
+              "Bab 5": 86
+            },
+            "UTS": {
+              "Bab 1": 63,
+              "Bab 2": 92,
+              "Bab 3": 64,
+              "Bab 4": 93,
+              "Bab 5": 91
+            },
+            "UAS": {
+              "Bab 1": 87,
+              "Bab 2": 57,
+              "Bab 3": 75,
+              "Bab 4": 67,
+              "Bab 5": 83
+            },
+            "Proyek": {
+              "Bab 1": 100,
+              "Bab 2": 74,
+              "Bab 3": 99,
+              "Bab 4": 54,
+              "Bab 5": 65
+            },
+            "Kuis": {
+              "Bab 1": 74,
+              "Bab 2": 64,
+              "Bab 3": 57,
+              "Bab 4": 51,
+              "Bab 5": 58
+            }
+          },
+          "id": 8
+        },
+        {
+          "studentId": 109,
+          "components": {
+            "Tugas": {
+              "Bab 1": 83,
+              "Bab 2": 96,
+              "Bab 3": 59,
+              "Bab 4": 59,
+              "Bab 5": 68
+            },
+            "UTS": {
+              "Bab 1": 76,
+              "Bab 2": 88,
+              "Bab 3": 50,
+              "Bab 4": 52,
+              "Bab 5": 94
+            },
+            "UAS": {
+              "Bab 1": 97,
+              "Bab 2": 74,
+              "Bab 3": 63,
+              "Bab 4": 83,
+              "Bab 5": 75
+            },
+            "Proyek": {
+              "Bab 1": 100,
+              "Bab 2": 63,
+              "Bab 3": 59,
+              "Bab 4": 55,
+              "Bab 5": 64
+            },
+            "Kuis": {
+              "Bab 1": 88,
+              "Bab 2": 95,
+              "Bab 3": 100,
+              "Bab 4": 77,
+              "Bab 5": 83
+            }
+          },
+          "id": 9
+        },
+        {
+          "studentId": 110,
+          "components": {
+            "Tugas": {
+              "Bab 1": 70,
+              "Bab 2": 61,
+              "Bab 3": 62,
+              "Bab 4": 63,
+              "Bab 5": 62
+            },
+            "UTS": {
+              "Bab 1": 83,
+              "Bab 2": 59,
+              "Bab 3": 79,
+              "Bab 4": 89,
+              "Bab 5": 71
+            },
+            "UAS": {
+              "Bab 1": 93,
+              "Bab 2": 68,
+              "Bab 3": 59,
+              "Bab 4": 90,
+              "Bab 5": 75
+            },
+            "Proyek": {
+              "Bab 1": 96,
+              "Bab 2": 77,
+              "Bab 3": 58,
+              "Bab 4": 66,
+              "Bab 5": 51
+            },
+            "Kuis": {
+              "Bab 1": 70,
+              "Bab 2": 56,
+              "Bab 3": 72,
+              "Bab 4": 79,
+              "Bab 5": 53
+            }
+          },
+          "id": 10
+        },
+        {
+          "studentId": 111,
+          "components": {
+            "Tugas": {
+              "Bab 1": 80,
+              "Bab 2": 79,
+              "Bab 3": 90,
+              "Bab 4": 58,
+              "Bab 5": 97
+            },
+            "UTS": {
+              "Bab 1": 68,
+              "Bab 2": 70,
+              "Bab 3": 61,
+              "Bab 4": 63,
+              "Bab 5": 80
+            },
+            "UAS": {
+              "Bab 1": 99,
+              "Bab 2": 73,
+              "Bab 3": 79,
+              "Bab 4": 95,
+              "Bab 5": 89
+            },
+            "Proyek": {
+              "Bab 1": 96,
+              "Bab 2": 69,
+              "Bab 3": 93,
+              "Bab 4": 54,
+              "Bab 5": 51
+            },
+            "Kuis": {
+              "Bab 1": 88,
+              "Bab 2": 90,
+              "Bab 3": 65,
+              "Bab 4": 86,
+              "Bab 5": 61
+            }
+          },
+          "id": 11
+        },
+        {
+          "studentId": 112,
+          "components": {
+            "Tugas": {
+              "Bab 1": 63,
+              "Bab 2": 63,
+              "Bab 3": 92,
+              "Bab 4": 81,
+              "Bab 5": 97
+            },
+            "UTS": {
+              "Bab 1": 54,
+              "Bab 2": 87,
+              "Bab 3": 97,
+              "Bab 4": 86,
+              "Bab 5": 74
+            },
+            "UAS": {
+              "Bab 1": 64,
+              "Bab 2": 51,
+              "Bab 3": 80,
+              "Bab 4": 96,
+              "Bab 5": 62
+            },
+            "Proyek": {
+              "Bab 1": 57,
+              "Bab 2": 73,
+              "Bab 3": 88,
+              "Bab 4": 67,
+              "Bab 5": 60
+            },
+            "Kuis": {
+              "Bab 1": 74,
+              "Bab 2": 57,
+              "Bab 3": 70,
+              "Bab 4": 87,
+              "Bab 5": 53
+            }
+          },
+          "id": 12
+        },
+        {
+          "studentId": 113,
+          "components": {
+            "Tugas": {
+              "Bab 1": 50,
+              "Bab 2": 95,
+              "Bab 3": 87,
+              "Bab 4": 63,
+              "Bab 5": 98
+            },
+            "UTS": {
+              "Bab 1": 53,
+              "Bab 2": 93,
+              "Bab 3": 76,
+              "Bab 4": 93,
+              "Bab 5": 79
+            },
+            "UAS": {
+              "Bab 1": 53,
+              "Bab 2": 95,
+              "Bab 3": 91,
+              "Bab 4": 91,
+              "Bab 5": 81
+            },
+            "Proyek": {
+              "Bab 1": 51,
+              "Bab 2": 68,
+              "Bab 3": 79,
+              "Bab 4": 92,
+              "Bab 5": 65
+            },
+            "Kuis": {
+              "Bab 1": 71,
+              "Bab 2": 89,
+              "Bab 3": 94,
+              "Bab 4": 66,
+              "Bab 5": 68
+            }
+          },
+          "id": 13
+        },
+        {
+          "studentId": 114,
+          "components": {
+            "Tugas": {
+              "Bab 1": 60,
+              "Bab 2": 96,
+              "Bab 3": 64,
+              "Bab 4": 73,
+              "Bab 5": 89
+            },
+            "UTS": {
+              "Bab 1": 52,
+              "Bab 2": 86,
+              "Bab 3": 98,
+              "Bab 4": 51,
+              "Bab 5": 69
+            },
+            "UAS": {
+              "Bab 1": 56,
+              "Bab 2": 89,
+              "Bab 3": 63,
+              "Bab 4": 60,
+              "Bab 5": 92
+            },
+            "Proyek": {
+              "Bab 1": 73,
+              "Bab 2": 85,
+              "Bab 3": 58,
+              "Bab 4": 72,
+              "Bab 5": 68
+            },
+            "Kuis": {
+              "Bab 1": 51,
+              "Bab 2": 67,
+              "Bab 3": 92,
+              "Bab 4": 58,
+              "Bab 5": 69
+            }
+          },
+          "id": 14
+        },
+        {
+          "studentId": 115,
+          "components": {
+            "Tugas": {
+              "Bab 1": 56,
+              "Bab 2": 75,
+              "Bab 3": 72,
+              "Bab 4": 94,
+              "Bab 5": 54
+            },
+            "UTS": {
+              "Bab 1": 71,
+              "Bab 2": 93,
+              "Bab 3": 58,
+              "Bab 4": 93,
+              "Bab 5": 64
+            },
+            "UAS": {
+              "Bab 1": 85,
+              "Bab 2": 65,
+              "Bab 3": 83,
+              "Bab 4": 63,
+              "Bab 5": 55
+            },
+            "Proyek": {
+              "Bab 1": 51,
+              "Bab 2": 75,
+              "Bab 3": 81,
+              "Bab 4": 55,
+              "Bab 5": 67
+            },
+            "Kuis": {
+              "Bab 1": 59,
+              "Bab 2": 85,
+              "Bab 3": 97,
+              "Bab 4": 59,
+              "Bab 5": 95
+            }
+          },
+          "id": 15
+        },
+        {
+          "studentId": 116,
+          "components": {
+            "Tugas": {
+              "Bab 1": 96,
+              "Bab 2": 100,
+              "Bab 3": 82,
+              "Bab 4": 77,
+              "Bab 5": 85
+            },
+            "UTS": {
+              "Bab 1": 64,
+              "Bab 2": 72,
+              "Bab 3": 68,
+              "Bab 4": 86,
+              "Bab 5": 92
+            },
+            "UAS": {
+              "Bab 1": 50,
+              "Bab 2": 58,
+              "Bab 3": 88,
+              "Bab 4": 94,
+              "Bab 5": 75
+            },
+            "Proyek": {
+              "Bab 1": 61,
+              "Bab 2": 90,
+              "Bab 3": 91,
+              "Bab 4": 73,
+              "Bab 5": 73
+            },
+            "Kuis": {
+              "Bab 1": 66,
+              "Bab 2": 96,
+              "Bab 3": 51,
+              "Bab 4": 64,
+              "Bab 5": 71
+            }
+          },
+          "id": 16
+        },
+        {
+          "studentId": 117,
+          "components": {
+            "Tugas": {
+              "Bab 1": 86,
+              "Bab 2": 54,
+              "Bab 3": 70,
+              "Bab 4": 94,
+              "Bab 5": 73
+            },
+            "UTS": {
+              "Bab 1": 96,
+              "Bab 2": 71,
+              "Bab 3": 99,
+              "Bab 4": 92,
+              "Bab 5": 80
+            },
+            "UAS": {
+              "Bab 1": 76,
+              "Bab 2": 81,
+              "Bab 3": 99,
+              "Bab 4": 80,
+              "Bab 5": 81
+            },
+            "Proyek": {
+              "Bab 1": 92,
+              "Bab 2": 92,
+              "Bab 3": 67,
+              "Bab 4": 57,
+              "Bab 5": 85
+            },
+            "Kuis": {
+              "Bab 1": 73,
+              "Bab 2": 78,
+              "Bab 3": 88,
+              "Bab 4": 65,
+              "Bab 5": 98
+            }
+          },
+          "id": 17
+        },
+        {
+          "studentId": 118,
+          "components": {
+            "Tugas": {
+              "Bab 1": 71,
+              "Bab 2": 53,
+              "Bab 3": 78,
+              "Bab 4": 100,
+              "Bab 5": 86
+            },
+            "UTS": {
+              "Bab 1": 80,
+              "Bab 2": 60,
+              "Bab 3": 100,
+              "Bab 4": 51,
+              "Bab 5": 50
+            },
+            "UAS": {
+              "Bab 1": 59,
+              "Bab 2": 76,
+              "Bab 3": 85,
+              "Bab 4": 62,
+              "Bab 5": 73
+            },
+            "Proyek": {
+              "Bab 1": 100,
+              "Bab 2": 52,
+              "Bab 3": 78,
+              "Bab 4": 85,
+              "Bab 5": 91
+            },
+            "Kuis": {
+              "Bab 1": 93,
+              "Bab 2": 88,
+              "Bab 3": 68,
+              "Bab 4": 86,
+              "Bab 5": 84
+            }
+          },
+          "id": 18
+        },
+        {
+          "studentId": 119,
+          "components": {
+            "Tugas": {
+              "Bab 1": 86,
+              "Bab 2": 97,
+              "Bab 3": 63,
+              "Bab 4": 90,
+              "Bab 5": 71
+            },
+            "UTS": {
+              "Bab 1": 100,
+              "Bab 2": 54,
+              "Bab 3": 98,
+              "Bab 4": 88,
+              "Bab 5": 61
+            },
+            "UAS": {
+              "Bab 1": 56,
+              "Bab 2": 56,
+              "Bab 3": 68,
+              "Bab 4": 55,
+              "Bab 5": 71
+            },
+            "Proyek": {
+              "Bab 1": 63,
+              "Bab 2": 96,
+              "Bab 3": 76,
+              "Bab 4": 53,
+              "Bab 5": 65
+            },
+            "Kuis": {
+              "Bab 1": 74,
+              "Bab 2": 90,
+              "Bab 3": 96,
+              "Bab 4": 79,
+              "Bab 5": 81
+            }
+          },
+          "id": 19
+        },
+        {
+          "studentId": 120,
+          "components": {
+            "Tugas": {
+              "Bab 1": 51,
+              "Bab 2": 73,
+              "Bab 3": 73,
+              "Bab 4": 67,
+              "Bab 5": 70
+            },
+            "UTS": {
+              "Bab 1": 92,
+              "Bab 2": 56,
+              "Bab 3": 86,
+              "Bab 4": 85,
+              "Bab 5": 56
+            },
+            "UAS": {
+              "Bab 1": 65,
+              "Bab 2": 95,
+              "Bab 3": 91,
+              "Bab 4": 65,
+              "Bab 5": 86
+            },
+            "Proyek": {
+              "Bab 1": 100,
+              "Bab 2": 98,
+              "Bab 3": 65,
+              "Bab 4": 100,
+              "Bab 5": 55
+            },
+            "Kuis": {
+              "Bab 1": 93,
+              "Bab 2": 68,
+              "Bab 3": 60,
+              "Bab 4": 97,
+              "Bab 5": 88
+            }
+          },
+          "id": 20
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Algoritma & Struktur Data",
+      "slug": "algoritma-struktur-data",
+      "semester": "Ganjil 2025",
+      "createdAt": "2025-07-15T19:59:16",
+      "updatedAt": "2025-06-30T03:49:08",
+      "students": [
+        {
+          "id": 1,
+          "name": "Dewi Pratama",
+          "nim": "A11.2022.10201",
+          "createdAt": "2025-07-15T04:57:04",
+          "updatedAt": "2025-06-16T17:00:28"
+        },
+        {
+          "id": 2,
+          "name": "Budi Yulianto",
+          "nim": "A11.2022.10202",
+          "createdAt": "2025-06-14T14:55:06",
+          "updatedAt": "2025-06-01T13:51:07"
+        },
+        {
+          "id": 3,
+          "name": "Taufik Lestari",
+          "nim": "A11.2022.10203",
+          "createdAt": "2025-06-17T15:05:28",
+          "updatedAt": "2025-06-23T12:59:48"
+        },
+        {
+          "id": 4,
+          "name": "Hani Syahputra",
+          "nim": "A11.2022.10204",
+          "createdAt": "2025-06-24T14:18:34",
+          "updatedAt": "2025-07-15T07:13:02"
+        },
+        {
+          "id": 5,
+          "name": "Ahmad Kusuma",
+          "nim": "A11.2022.10205",
+          "createdAt": "2025-06-23T05:51:58",
+          "updatedAt": "2025-06-25T22:03:19"
+        },
+        {
+          "id": 6,
+          "name": "Sari Pratama",
+          "nim": "A11.2022.10206",
+          "createdAt": "2025-07-03T06:05:06",
+          "updatedAt": "2025-06-17T05:32:40"
+        },
+        {
+          "id": 7,
+          "name": "Taufik Ramadhan",
+          "nim": "A11.2022.10207",
+          "createdAt": "2025-06-22T08:32:52",
+          "updatedAt": "2025-06-28T18:10:45"
+        },
+        {
+          "id": 8,
+          "name": "Taufik Anggara",
+          "nim": "A11.2022.10208",
+          "createdAt": "2025-07-07T09:39:59",
+          "updatedAt": "2025-06-07T13:39:46"
+        },
+        {
+          "id": 9,
+          "name": "Hani Ramadhan",
+          "nim": "A11.2022.10209",
+          "createdAt": "2025-06-30T08:21:34",
+          "updatedAt": "2025-07-10T04:23:49"
+        },
+        {
+          "id": 10,
+          "name": "Qori Yulianto",
+          "nim": "A11.2022.10210",
+          "createdAt": "2025-06-06T21:02:02",
+          "updatedAt": "2025-07-11T19:29:40"
+        },
+        {
+          "id": 11,
+          "name": "Rizky Saputra",
+          "nim": "A11.2022.10211",
+          "createdAt": "2025-07-12T13:50:21",
+          "updatedAt": "2025-06-10T23:45:23"
+        },
+        {
+          "id": 12,
+          "name": "Citra Kusuma",
+          "nim": "A11.2022.10212",
+          "createdAt": "2025-07-14T13:26:51",
+          "updatedAt": "2025-06-15T08:28:45"
+        },
+        {
+          "id": 13,
+          "name": "Hani Amalia",
+          "nim": "A11.2022.10213",
+          "createdAt": "2025-07-12T03:54:10",
+          "updatedAt": "2025-07-08T09:21:38"
+        },
+        {
+          "id": 14,
+          "name": "Ahmad Hidayat",
+          "nim": "A11.2022.10214",
+          "createdAt": "2025-06-02T18:25:01",
+          "updatedAt": "2025-06-06T16:39:47"
+        },
+        {
+          "id": 15,
+          "name": "Lutfi Hidayat",
+          "nim": "A11.2022.10215",
+          "createdAt": "2025-07-05T01:39:00",
+          "updatedAt": "2025-07-13T07:38:30"
+        },
+        {
+          "id": 16,
+          "name": "Budi Nugroho",
+          "nim": "A11.2022.10216",
+          "createdAt": "2025-06-11T01:17:44",
+          "updatedAt": "2025-07-14T22:41:55"
+        },
+        {
+          "id": 17,
+          "name": "Putri Pratama",
+          "nim": "A11.2022.10217",
+          "createdAt": "2025-06-21T11:59:51",
+          "updatedAt": "2025-06-02T03:39:58"
+        },
+        {
+          "id": 18,
+          "name": "Taufik Saputra",
+          "nim": "A11.2022.10218",
+          "createdAt": "2025-06-03T23:41:28",
+          "updatedAt": "2025-06-13T17:42:19"
+        },
+        {
+          "id": 19,
+          "name": "Nina Amalia",
+          "nim": "A11.2022.10219",
+          "createdAt": "2025-06-14T15:32:21",
+          "updatedAt": "2025-06-10T03:50:43"
+        }
+      ],
+      "gradeConfig": {
+        "components": [
+          {
+            "name": "Tugas",
+            "weight": 21,
+            "id": 1
+          },
+          {
+            "name": "UTS",
+            "weight": 22,
+            "id": 2
+          },
+          {
+            "name": "UAS",
+            "weight": 22,
+            "id": 3
+          },
+          {
+            "name": "Proyek",
+            "weight": 21,
+            "id": 4
+          },
+          {
+            "name": "Kuis",
+            "weight": 14,
+            "id": 5
+          }
+        ],
+        "chapters": [
+          {
+            "name": "Bab 1",
+            "contribution": {
+              "Tugas": 4,
+              "UTS": 10,
+              "UAS": 12,
+              "Proyek": 11,
+              "Kuis": 63
+            },
+            "id": 1
+          },
+          {
+            "name": "Bab 2",
+            "contribution": {
+              "Tugas": 3,
+              "UTS": 28,
+              "UAS": 23,
+              "Proyek": 3,
+              "Kuis": 43
+            },
+            "id": 2
+          },
+          {
+            "name": "Bab 3",
+            "contribution": {
+              "Tugas": 11,
+              "UTS": 28,
+              "UAS": 40,
+              "Proyek": 18,
+              "Kuis": 3
+            },
+            "id": 3
+          },
+          {
+            "name": "Bab 4",
+            "contribution": {
+              "Tugas": 28,
+              "UTS": 5,
+              "UAS": 19,
+              "Proyek": 4,
+              "Kuis": 44
+            },
+            "id": 4
+          },
+          {
+            "name": "Bab 5",
+            "contribution": {
+              "Tugas": 18,
+              "UTS": 14,
+              "UAS": 36,
+              "Proyek": 22,
+              "Kuis": 10
+            },
+            "id": 5
+          }
+        ],
+        "createdAt": "2025-07-04T07:36:33",
+        "updatedAt": "2025-07-03T04:11:06"
+      },
+      "grades": [
+        {
+          "studentId": 201,
+          "components": {
+            "Tugas": {
+              "Bab 1": 98,
+              "Bab 2": 62,
+              "Bab 3": 94,
+              "Bab 4": 94,
+              "Bab 5": 68
+            },
+            "UTS": {
+              "Bab 1": 50,
+              "Bab 2": 53,
+              "Bab 3": 81,
+              "Bab 4": 72,
+              "Bab 5": 69
+            },
+            "UAS": {
+              "Bab 1": 96,
+              "Bab 2": 87,
+              "Bab 3": 75,
+              "Bab 4": 62,
+              "Bab 5": 51
+            },
+            "Proyek": {
+              "Bab 1": 68,
+              "Bab 2": 73,
+              "Bab 3": 67,
+              "Bab 4": 66,
+              "Bab 5": 54
+            },
+            "Kuis": {
+              "Bab 1": 83,
+              "Bab 2": 86,
+              "Bab 3": 86,
+              "Bab 4": 99,
+              "Bab 5": 68
+            }
+          },
+          "id": 1
+        },
+        {
+          "studentId": 202,
+          "components": {
+            "Tugas": {
+              "Bab 1": 100,
+              "Bab 2": 94,
+              "Bab 3": 85,
+              "Bab 4": 100,
+              "Bab 5": 58
+            },
+            "UTS": {
+              "Bab 1": 72,
+              "Bab 2": 93,
+              "Bab 3": 66,
+              "Bab 4": 97,
+              "Bab 5": 77
+            },
+            "UAS": {
+              "Bab 1": 60,
+              "Bab 2": 87,
+              "Bab 3": 84,
+              "Bab 4": 97,
+              "Bab 5": 61
+            },
+            "Proyek": {
+              "Bab 1": 91,
+              "Bab 2": 87,
+              "Bab 3": 80,
+              "Bab 4": 66,
+              "Bab 5": 85
+            },
+            "Kuis": {
+              "Bab 1": 59,
+              "Bab 2": 56,
+              "Bab 3": 96,
+              "Bab 4": 96,
+              "Bab 5": 76
+            }
+          },
+          "id": 2
+        },
+        {
+          "studentId": 203,
+          "components": {
+            "Tugas": {
+              "Bab 1": 69,
+              "Bab 2": 77,
+              "Bab 3": 100,
+              "Bab 4": 75,
+              "Bab 5": 93
+            },
+            "UTS": {
+              "Bab 1": 84,
+              "Bab 2": 89,
+              "Bab 3": 87,
+              "Bab 4": 85,
+              "Bab 5": 63
+            },
+            "UAS": {
+              "Bab 1": 68,
+              "Bab 2": 62,
+              "Bab 3": 71,
+              "Bab 4": 74,
+              "Bab 5": 54
+            },
+            "Proyek": {
+              "Bab 1": 86,
+              "Bab 2": 95,
+              "Bab 3": 62,
+              "Bab 4": 53,
+              "Bab 5": 92
+            },
+            "Kuis": {
+              "Bab 1": 51,
+              "Bab 2": 55,
+              "Bab 3": 51,
+              "Bab 4": 91,
+              "Bab 5": 91
+            }
+          },
+          "id": 3
+        },
+        {
+          "studentId": 204,
+          "components": {
+            "Tugas": {
+              "Bab 1": 83,
+              "Bab 2": 100,
+              "Bab 3": 76,
+              "Bab 4": 55,
+              "Bab 5": 82
+            },
+            "UTS": {
+              "Bab 1": 55,
+              "Bab 2": 97,
+              "Bab 3": 69,
+              "Bab 4": 54,
+              "Bab 5": 100
+            },
+            "UAS": {
+              "Bab 1": 88,
+              "Bab 2": 71,
+              "Bab 3": 76,
+              "Bab 4": 100,
+              "Bab 5": 93
+            },
+            "Proyek": {
+              "Bab 1": 80,
+              "Bab 2": 90,
+              "Bab 3": 68,
+              "Bab 4": 87,
+              "Bab 5": 50
+            },
+            "Kuis": {
+              "Bab 1": 57,
+              "Bab 2": 79,
+              "Bab 3": 100,
+              "Bab 4": 98,
+              "Bab 5": 59
+            }
+          },
+          "id": 4
+        },
+        {
+          "studentId": 205,
+          "components": {
+            "Tugas": {
+              "Bab 1": 61,
+              "Bab 2": 71,
+              "Bab 3": 61,
+              "Bab 4": 80,
+              "Bab 5": 76
+            },
+            "UTS": {
+              "Bab 1": 58,
+              "Bab 2": 68,
+              "Bab 3": 76,
+              "Bab 4": 62,
+              "Bab 5": 74
+            },
+            "UAS": {
+              "Bab 1": 51,
+              "Bab 2": 64,
+              "Bab 3": 88,
+              "Bab 4": 56,
+              "Bab 5": 74
+            },
+            "Proyek": {
+              "Bab 1": 62,
+              "Bab 2": 84,
+              "Bab 3": 74,
+              "Bab 4": 87,
+              "Bab 5": 84
+            },
+            "Kuis": {
+              "Bab 1": 83,
+              "Bab 2": 64,
+              "Bab 3": 81,
+              "Bab 4": 65,
+              "Bab 5": 96
+            }
+          },
+          "id": 5
+        },
+        {
+          "studentId": 206,
+          "components": {
+            "Tugas": {
+              "Bab 1": 97,
+              "Bab 2": 96,
+              "Bab 3": 51,
+              "Bab 4": 99,
+              "Bab 5": 100
+            },
+            "UTS": {
+              "Bab 1": 76,
+              "Bab 2": 100,
+              "Bab 3": 73,
+              "Bab 4": 77,
+              "Bab 5": 96
+            },
+            "UAS": {
+              "Bab 1": 78,
+              "Bab 2": 70,
+              "Bab 3": 66,
+              "Bab 4": 94,
+              "Bab 5": 96
+            },
+            "Proyek": {
+              "Bab 1": 94,
+              "Bab 2": 76,
+              "Bab 3": 79,
+              "Bab 4": 54,
+              "Bab 5": 73
+            },
+            "Kuis": {
+              "Bab 1": 58,
+              "Bab 2": 87,
+              "Bab 3": 71,
+              "Bab 4": 67,
+              "Bab 5": 79
+            }
+          },
+          "id": 6
+        },
+        {
+          "studentId": 207,
+          "components": {
+            "Tugas": {
+              "Bab 1": 66,
+              "Bab 2": 93,
+              "Bab 3": 92,
+              "Bab 4": 93,
+              "Bab 5": 87
+            },
+            "UTS": {
+              "Bab 1": 92,
+              "Bab 2": 57,
+              "Bab 3": 82,
+              "Bab 4": 77,
+              "Bab 5": 72
+            },
+            "UAS": {
+              "Bab 1": 57,
+              "Bab 2": 100,
+              "Bab 3": 82,
+              "Bab 4": 79,
+              "Bab 5": 95
+            },
+            "Proyek": {
+              "Bab 1": 65,
+              "Bab 2": 87,
+              "Bab 3": 62,
+              "Bab 4": 61,
+              "Bab 5": 77
+            },
+            "Kuis": {
+              "Bab 1": 100,
+              "Bab 2": 52,
+              "Bab 3": 73,
+              "Bab 4": 96,
+              "Bab 5": 65
+            }
+          },
+          "id": 7
+        },
+        {
+          "studentId": 208,
+          "components": {
+            "Tugas": {
+              "Bab 1": 68,
+              "Bab 2": 50,
+              "Bab 3": 72,
+              "Bab 4": 78,
+              "Bab 5": 65
+            },
+            "UTS": {
+              "Bab 1": 53,
+              "Bab 2": 52,
+              "Bab 3": 84,
+              "Bab 4": 69,
+              "Bab 5": 85
+            },
+            "UAS": {
+              "Bab 1": 66,
+              "Bab 2": 75,
+              "Bab 3": 66,
+              "Bab 4": 77,
+              "Bab 5": 64
+            },
+            "Proyek": {
+              "Bab 1": 88,
+              "Bab 2": 50,
+              "Bab 3": 65,
+              "Bab 4": 89,
+              "Bab 5": 58
+            },
+            "Kuis": {
+              "Bab 1": 91,
+              "Bab 2": 50,
+              "Bab 3": 71,
+              "Bab 4": 89,
+              "Bab 5": 52
+            }
+          },
+          "id": 8
+        },
+        {
+          "studentId": 209,
+          "components": {
+            "Tugas": {
+              "Bab 1": 69,
+              "Bab 2": 72,
+              "Bab 3": 95,
+              "Bab 4": 100,
+              "Bab 5": 89
+            },
+            "UTS": {
+              "Bab 1": 84,
+              "Bab 2": 76,
+              "Bab 3": 73,
+              "Bab 4": 89,
+              "Bab 5": 81
+            },
+            "UAS": {
+              "Bab 1": 60,
+              "Bab 2": 59,
+              "Bab 3": 56,
+              "Bab 4": 72,
+              "Bab 5": 67
+            },
+            "Proyek": {
+              "Bab 1": 78,
+              "Bab 2": 96,
+              "Bab 3": 62,
+              "Bab 4": 91,
+              "Bab 5": 80
+            },
+            "Kuis": {
+              "Bab 1": 92,
+              "Bab 2": 52,
+              "Bab 3": 88,
+              "Bab 4": 87,
+              "Bab 5": 53
+            }
+          },
+          "id": 9
+        },
+        {
+          "studentId": 210,
+          "components": {
+            "Tugas": {
+              "Bab 1": 51,
+              "Bab 2": 79,
+              "Bab 3": 72,
+              "Bab 4": 53,
+              "Bab 5": 69
+            },
+            "UTS": {
+              "Bab 1": 86,
+              "Bab 2": 69,
+              "Bab 3": 93,
+              "Bab 4": 95,
+              "Bab 5": 76
+            },
+            "UAS": {
+              "Bab 1": 91,
+              "Bab 2": 88,
+              "Bab 3": 99,
+              "Bab 4": 95,
+              "Bab 5": 60
+            },
+            "Proyek": {
+              "Bab 1": 60,
+              "Bab 2": 60,
+              "Bab 3": 60,
+              "Bab 4": 79,
+              "Bab 5": 96
+            },
+            "Kuis": {
+              "Bab 1": 97,
+              "Bab 2": 97,
+              "Bab 3": 76,
+              "Bab 4": 54,
+              "Bab 5": 86
+            }
+          },
+          "id": 10
+        },
+        {
+          "studentId": 211,
+          "components": {
+            "Tugas": {
+              "Bab 1": 79,
+              "Bab 2": 99,
+              "Bab 3": 90,
+              "Bab 4": 62,
+              "Bab 5": 56
+            },
+            "UTS": {
+              "Bab 1": 97,
+              "Bab 2": 67,
+              "Bab 3": 89,
+              "Bab 4": 69,
+              "Bab 5": 57
+            },
+            "UAS": {
+              "Bab 1": 86,
+              "Bab 2": 52,
+              "Bab 3": 71,
+              "Bab 4": 67,
+              "Bab 5": 92
+            },
+            "Proyek": {
+              "Bab 1": 54,
+              "Bab 2": 65,
+              "Bab 3": 73,
+              "Bab 4": 60,
+              "Bab 5": 50
+            },
+            "Kuis": {
+              "Bab 1": 62,
+              "Bab 2": 68,
+              "Bab 3": 52,
+              "Bab 4": 97,
+              "Bab 5": 77
+            }
+          },
+          "id": 11
+        },
+        {
+          "studentId": 212,
+          "components": {
+            "Tugas": {
+              "Bab 1": 84,
+              "Bab 2": 60,
+              "Bab 3": 84,
+              "Bab 4": 61,
+              "Bab 5": 73
+            },
+            "UTS": {
+              "Bab 1": 87,
+              "Bab 2": 56,
+              "Bab 3": 74,
+              "Bab 4": 73,
+              "Bab 5": 82
+            },
+            "UAS": {
+              "Bab 1": 68,
+              "Bab 2": 96,
+              "Bab 3": 81,
+              "Bab 4": 82,
+              "Bab 5": 80
+            },
+            "Proyek": {
+              "Bab 1": 65,
+              "Bab 2": 62,
+              "Bab 3": 79,
+              "Bab 4": 50,
+              "Bab 5": 97
+            },
+            "Kuis": {
+              "Bab 1": 98,
+              "Bab 2": 70,
+              "Bab 3": 81,
+              "Bab 4": 79,
+              "Bab 5": 69
+            }
+          },
+          "id": 12
+        },
+        {
+          "studentId": 213,
+          "components": {
+            "Tugas": {
+              "Bab 1": 80,
+              "Bab 2": 54,
+              "Bab 3": 58,
+              "Bab 4": 62,
+              "Bab 5": 53
+            },
+            "UTS": {
+              "Bab 1": 62,
+              "Bab 2": 60,
+              "Bab 3": 88,
+              "Bab 4": 53,
+              "Bab 5": 72
+            },
+            "UAS": {
+              "Bab 1": 73,
+              "Bab 2": 67,
+              "Bab 3": 63,
+              "Bab 4": 70,
+              "Bab 5": 55
+            },
+            "Proyek": {
+              "Bab 1": 57,
+              "Bab 2": 83,
+              "Bab 3": 88,
+              "Bab 4": 76,
+              "Bab 5": 80
+            },
+            "Kuis": {
+              "Bab 1": 75,
+              "Bab 2": 76,
+              "Bab 3": 86,
+              "Bab 4": 84,
+              "Bab 5": 79
+            }
+          },
+          "id": 13
+        },
+        {
+          "studentId": 214,
+          "components": {
+            "Tugas": {
+              "Bab 1": 69,
+              "Bab 2": 82,
+              "Bab 3": 88,
+              "Bab 4": 65,
+              "Bab 5": 55
+            },
+            "UTS": {
+              "Bab 1": 60,
+              "Bab 2": 61,
+              "Bab 3": 100,
+              "Bab 4": 73,
+              "Bab 5": 86
+            },
+            "UAS": {
+              "Bab 1": 97,
+              "Bab 2": 52,
+              "Bab 3": 55,
+              "Bab 4": 77,
+              "Bab 5": 100
+            },
+            "Proyek": {
+              "Bab 1": 58,
+              "Bab 2": 60,
+              "Bab 3": 56,
+              "Bab 4": 96,
+              "Bab 5": 77
+            },
+            "Kuis": {
+              "Bab 1": 84,
+              "Bab 2": 100,
+              "Bab 3": 80,
+              "Bab 4": 90,
+              "Bab 5": 94
+            }
+          },
+          "id": 14
+        },
+        {
+          "studentId": 215,
+          "components": {
+            "Tugas": {
+              "Bab 1": 85,
+              "Bab 2": 81,
+              "Bab 3": 59,
+              "Bab 4": 83,
+              "Bab 5": 58
+            },
+            "UTS": {
+              "Bab 1": 84,
+              "Bab 2": 91,
+              "Bab 3": 57,
+              "Bab 4": 99,
+              "Bab 5": 50
+            },
+            "UAS": {
+              "Bab 1": 90,
+              "Bab 2": 52,
+              "Bab 3": 70,
+              "Bab 4": 53,
+              "Bab 5": 64
+            },
+            "Proyek": {
+              "Bab 1": 84,
+              "Bab 2": 81,
+              "Bab 3": 51,
+              "Bab 4": 56,
+              "Bab 5": 62
+            },
+            "Kuis": {
+              "Bab 1": 79,
+              "Bab 2": 54,
+              "Bab 3": 66,
+              "Bab 4": 76,
+              "Bab 5": 93
+            }
+          },
+          "id": 15
+        },
+        {
+          "studentId": 216,
+          "components": {
+            "Tugas": {
+              "Bab 1": 95,
+              "Bab 2": 63,
+              "Bab 3": 92,
+              "Bab 4": 99,
+              "Bab 5": 62
+            },
+            "UTS": {
+              "Bab 1": 87,
+              "Bab 2": 89,
+              "Bab 3": 60,
+              "Bab 4": 93,
+              "Bab 5": 78
+            },
+            "UAS": {
+              "Bab 1": 88,
+              "Bab 2": 62,
+              "Bab 3": 78,
+              "Bab 4": 72,
+              "Bab 5": 90
+            },
+            "Proyek": {
+              "Bab 1": 78,
+              "Bab 2": 51,
+              "Bab 3": 76,
+              "Bab 4": 55,
+              "Bab 5": 67
+            },
+            "Kuis": {
+              "Bab 1": 67,
+              "Bab 2": 90,
+              "Bab 3": 86,
+              "Bab 4": 95,
+              "Bab 5": 76
+            }
+          },
+          "id": 16
+        },
+        {
+          "studentId": 217,
+          "components": {
+            "Tugas": {
+              "Bab 1": 66,
+              "Bab 2": 51,
+              "Bab 3": 83,
+              "Bab 4": 86,
+              "Bab 5": 63
+            },
+            "UTS": {
+              "Bab 1": 88,
+              "Bab 2": 79,
+              "Bab 3": 57,
+              "Bab 4": 73,
+              "Bab 5": 58
+            },
+            "UAS": {
+              "Bab 1": 87,
+              "Bab 2": 73,
+              "Bab 3": 88,
+              "Bab 4": 67,
+              "Bab 5": 70
+            },
+            "Proyek": {
+              "Bab 1": 100,
+              "Bab 2": 85,
+              "Bab 3": 97,
+              "Bab 4": 59,
+              "Bab 5": 92
+            },
+            "Kuis": {
+              "Bab 1": 64,
+              "Bab 2": 94,
+              "Bab 3": 57,
+              "Bab 4": 57,
+              "Bab 5": 75
+            }
+          },
+          "id": 17
+        },
+        {
+          "studentId": 218,
+          "components": {
+            "Tugas": {
+              "Bab 1": 95,
+              "Bab 2": 53,
+              "Bab 3": 93,
+              "Bab 4": 72,
+              "Bab 5": 84
+            },
+            "UTS": {
+              "Bab 1": 97,
+              "Bab 2": 50,
+              "Bab 3": 61,
+              "Bab 4": 76,
+              "Bab 5": 58
+            },
+            "UAS": {
+              "Bab 1": 51,
+              "Bab 2": 95,
+              "Bab 3": 90,
+              "Bab 4": 81,
+              "Bab 5": 68
+            },
+            "Proyek": {
+              "Bab 1": 62,
+              "Bab 2": 64,
+              "Bab 3": 57,
+              "Bab 4": 53,
+              "Bab 5": 54
+            },
+            "Kuis": {
+              "Bab 1": 56,
+              "Bab 2": 94,
+              "Bab 3": 52,
+              "Bab 4": 54,
+              "Bab 5": 54
+            }
+          },
+          "id": 18
+        },
+        {
+          "studentId": 219,
+          "components": {
+            "Tugas": {
+              "Bab 1": 100,
+              "Bab 2": 65,
+              "Bab 3": 66,
+              "Bab 4": 57,
+              "Bab 5": 93
+            },
+            "UTS": {
+              "Bab 1": 95,
+              "Bab 2": 75,
+              "Bab 3": 56,
+              "Bab 4": 93,
+              "Bab 5": 71
+            },
+            "UAS": {
+              "Bab 1": 94,
+              "Bab 2": 83,
+              "Bab 3": 57,
+              "Bab 4": 54,
+              "Bab 5": 65
+            },
+            "Proyek": {
+              "Bab 1": 65,
+              "Bab 2": 78,
+              "Bab 3": 58,
+              "Bab 4": 90,
+              "Bab 5": 64
+            },
+            "Kuis": {
+              "Bab 1": 52,
+              "Bab 2": 70,
+              "Bab 3": 97,
+              "Bab 4": 68,
+              "Bab 5": 75
+            }
+          },
+          "id": 19
+        }
+      ]
+    }
+  ]
+}
