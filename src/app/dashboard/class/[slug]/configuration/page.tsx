@@ -55,8 +55,8 @@ const ConfigurationPage = () => {
   } = useForm<FormValues>();
 
   const onSubmit = (data: FormValues) => {
-    addChapter(data.chapter); // asumsikan fungsi `addChapter` menerima nama
-    reset(); // reset form setelah submit
+    addChapter(data.chapter);
+    reset();
   };
 
   const handleChangeTab = (event: React.SyntheticEvent, newValue: number) => {
@@ -68,9 +68,10 @@ const ConfigurationPage = () => {
   const classData = useMemo(() => {
     return data?.classes.find((item) => item.slug === slug);
   }, [data, slug]);
-  const initialComponents = classData?.gradeConfig?.components ?? [];
+  const initialComponents = useMemo(() => {
+    return classData?.gradeConfig?.components ?? [];
+  }, [classData]);
   const [chapters, setChapters] = useState(classData?.gradeConfig?.chapters ?? []);
-  const [newChapter, setNewChapter] = useState("");
 
   console.log(chapters);
 

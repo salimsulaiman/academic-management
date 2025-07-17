@@ -190,6 +190,35 @@ const NilaiPage = () => {
             </div>
           </div>
 
+          {viewMode === "input" && (
+            <div className="flex flex-wrap items-center justify-between mb-6 px-2 md:px-0">
+              <div className="flex items-center gap-4">
+                <label className="flex items-center gap-2 text-sm text-gray-800 dark:text-gray-200">
+                  <input
+                    type="checkbox"
+                    checked={autoSave}
+                    onChange={(e) => setAutoSave(e.target.checked)}
+                    className="form-checkbox text-blue-600"
+                  />
+                  Auto-Save
+                </label>
+
+                <button
+                  onClick={() => setShowContributions((prev) => !prev)}
+                  className="text-blue-600 hover:underline text-sm"
+                >
+                  {showContributions ? "Hide Contributions" : "Show Contributions"}
+                </button>
+              </div>
+
+              {lastSaved && (
+                <p className="text-sm text-gray-500 dark:text-green-200 mt-2 md:mt-0">
+                  Last saved at: {lastSaved.toLocaleTimeString()}
+                </p>
+              )}
+            </div>
+          )}
+
           {viewMode === "input" && classData && (
             <InputPage
               classData={classData}

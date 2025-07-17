@@ -13,7 +13,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
     fetch("/academic-data.json")
       .then((res) => res.json())
       .then(setData);
-  }, []);
+  }, [setData]);
   return (
     <main className={`flex flex-col flex-1 transition-all duration-300 ${open ? "ml-0 md:ml-64" : "ml-0 md:ml-20"}`}>
       <Topbar />

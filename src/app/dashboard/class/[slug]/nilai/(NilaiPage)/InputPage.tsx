@@ -1,6 +1,5 @@
 "use client";
 import { ClassData } from "@/types/academic";
-import { useParams } from "next/navigation";
 import SaveIcon from "@mui/icons-material/Save";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import * as XLSX from "xlsx";
@@ -89,7 +88,7 @@ const InputPage = ({
   };
 
   const exportToExcel = () => {
-    const worksheetData: any[][] = [];
+    const worksheetData: string[][] = [];
 
     // Header
     const headerRow = ["NIM", "Nama"];
@@ -102,12 +101,12 @@ const InputPage = ({
 
     // Data
     classData.students.forEach((student) => {
-      const row: any[] = [student.nim, student.name];
+      const row: string[] = [student.nim, student.name];
 
       classData.gradeConfig.components.forEach((component) => {
         classData.gradeConfig.chapters.forEach((chapter) => {
           const value = grades[student.id]?.[component.name]?.[chapter.name] ?? "";
-          row.push(value);
+          row.push(String(value));
         });
       });
 
