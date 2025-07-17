@@ -22,7 +22,13 @@ export default function ClassCard({ className, semester, studentCount, slug, gra
   const progressPercentage = studentCount > 0 ? Math.round((gradedCount / studentCount) * 100) : 0;
   return (
     <div className="bg-white dark:bg-gray-800 rounded-4xl shadow-sm p-4 flex flex-col justify-between min-h-[180px] relative">
-      <div className="w-full aspect-video rounded-3xl bg-slate-200"></div>
+      <div className="w-full aspect-video rounded-3xl bg-slate-200 relative overflow-hidden">
+        <img
+          src="/thumbnail.jpg"
+          alt="Thumbnail"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
+      </div>
       <div className="my-4">
         <div className="flex justify-between items-start w-full">
           <div className="w-full">
