@@ -6,11 +6,16 @@ import React, { useEffect, useMemo, useState } from "react";
 import { useTheme } from "@mui/material/styles";
 import ChapterCard from "@/components/ChapterCard";
 import AddIcon from "@mui/icons-material/Add";
+import { useForm } from "react-hook-form";
 
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
   value: number;
+}
+
+interface FormValues {
+  chapter: string;
 }
 
 function CustomTabPanel(props: TabPanelProps) {
@@ -41,6 +46,18 @@ const ConfigurationPage = () => {
 
   const [value, setValue] = React.useState(0);
   const theme = useTheme();
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm<FormValues>();
+
+  const onSubmit = (data: FormValues) => {
+    addChapter(data.chapter); // asumsikan fungsi `addChapter` menerima nama
+    reset(); // reset form setelah submit
+  };
 
   const handleChangeTab = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
@@ -109,8 +126,8 @@ const ConfigurationPage = () => {
     };
   }, [gradeComponents, chapters]);
 
-  const addChapter = () => {
-    if (!newChapter.trim()) return;
+  const addChapter = (chapterName: string) => {
+    if (!chapterName.trim()) return;
 
     const newId = Math.max(...chapters.map((c) => c.id), 0) + 1;
 
@@ -123,12 +140,10 @@ const ConfigurationPage = () => {
       ...prev,
       {
         id: newId,
-        name: newChapter,
+        name: chapterName,
         contribution: defaultContribution,
       },
     ]);
-
-    setNewChapter("");
   };
 
   const getChapterTotalWeight = (chapterId: number) => {
@@ -268,23 +283,22 @@ const ConfigurationPage = () => {
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
           <div className="mb-6">
-            <div className="flex flex-col md:flex-row gap-2">
+            <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col md:flex-row gap-2">
               <input
                 type="text"
                 placeholder="Enter chapter name"
-                value={newChapter}
-                onChange={(e) => setNewChapter(e.target.value)}
-                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                onKeyPress={(e) => e.key === "Enter" && addChapter()}
+                {...register("chapter", { required: "Chapter name is required" })}
+                className="flex-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               <button
-                onClick={addChapter}
-                className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center justify-center gap-2"
+                type="submit"
+                className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-2"
               >
                 <AddIcon className="w-4 h-4" />
                 Add Chapter
               </button>
-            </div>
+            </form>
+            {errors.chapter && <p className="text-red-500 text-sm mt-4">{errors.chapter.message}</p>}
           </div>
           <div className="space-y-6">
             <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
