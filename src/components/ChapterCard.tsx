@@ -27,7 +27,6 @@ const ChapterCard = ({
   removeChapter,
   getChapterTotalWeight,
 }: ChapterCardProps) => {
-  const totalWeight = getChapterTotalWeight(chapter.id);
   return (
     <div
       key={chapter?.id}

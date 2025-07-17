@@ -16,15 +16,7 @@ interface ClassCardProps {
   slug: string;
 }
 
-export default function ClassCard({
-  className,
-  semester,
-  studentCount,
-  isConfigured,
-  classId,
-  slug,
-  gradedCount,
-}: ClassCardProps) {
+export default function ClassCard({ className, semester, studentCount, slug, gradedCount }: ClassCardProps) {
   const router = useRouter();
 
   const progressPercentage = studentCount > 0 ? Math.round((gradedCount / studentCount) * 100) : 0;
